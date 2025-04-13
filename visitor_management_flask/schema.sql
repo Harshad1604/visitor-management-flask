@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS visitor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    purpose TEXT NOT NULL,
+    contact TEXT NOT NULL
+);
